@@ -1,0 +1,14 @@
+# GitHub Pages (Jekyll) 站点配置
+# 作用范围：仅影响 GitHub Pages 生成网页时的行为，不影响仓库本身的内容。
+
+title: 康铭熙 · 个人作品集
+description: 南昌大学 · 生物工程 | 全学期 16 周实验归档
+
+kramdown:
+  # kramdown 默认不解析 HTML 块内部的 Markdown。
+  # 本仓库 README.md 用 <div align="center"> 做居中排版，
+  # 若不开启此项，其中的标题与徽章会以原始 Markdown 源码形式显示在网页上。
+  parse_block_html: true
+
+exclude:
+  - labs/
