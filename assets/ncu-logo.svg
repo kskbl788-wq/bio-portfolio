@@ -1,0 +1,64 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="260" viewBox="0 0 1200 260" role="img" aria-label="南昌大学 个人作品集 Nanchang University Personal Portfolio">
+  <defs>
+    <linearGradient id="ncuBlue" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#0A2A5E"/>
+      <stop offset="55%" stop-color="#12478A"/>
+      <stop offset="100%" stop-color="#1B6FB5"/>
+    </linearGradient>
+    <linearGradient id="ringGold" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#F3D48A"/>
+      <stop offset="100%" stop-color="#C9A24A"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="0.15" cy="0.15" r="0.9">
+      <stop offset="0%" stop-color="#ffffff" stop-opacity="0.16"/>
+      <stop offset="100%" stop-color="#ffffff" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+
+  <!-- 底板 -->
+  <rect x="0" y="0" width="1200" height="260" rx="18" fill="url(#ncuBlue)"/>
+  <rect x="0" y="0" width="1200" height="260" rx="18" fill="url(#glow)"/>
+
+  <!-- 底部金色细线 -->
+  <rect x="0" y="248" width="1200" height="12" rx="6" fill="url(#ringGold)" opacity="0.85"/>
+
+  <!-- 校徽式圆环：中间为生命之芽 + 化学六元环，呼应生物工程 -->
+  <g transform="translate(140,130)">
+    <circle r="82" fill="#ffffff" opacity="0.07"/>
+    <circle r="82" fill="none" stroke="url(#ringGold)" stroke-width="4"/>
+    <circle r="68" fill="none" stroke="#ffffff" stroke-width="1.5" opacity="0.55"/>
+
+    <!-- 双螺旋 / 嫩芽 -->
+    <path d="M -6 44 C -30 18, 22 8, -2 -20 C -22 -42, 16 -50, 6 -62"
+          fill="none" stroke="#ffffff" stroke-width="6" stroke-linecap="round" opacity="0.95"/>
+    <path d="M 10 44 C -14 18, 38 8, 14 -20 C -6 -42, 32 -50, 22 -62"
+          fill="none" stroke="#F3D48A" stroke-width="6" stroke-linecap="round" opacity="0.95"/>
+    <path d="M 4 -52 C 22 -70, 40 -68, 46 -58 C 34 -44, 14 -44, 4 -52 Z"
+          fill="#8FD3A0" opacity="0.95"/>
+    <!-- 底部长效碱基座 -->
+    <path d="M -30 52 L 34 52" stroke="#ffffff" stroke-width="5" stroke-linecap="round" opacity="0.8"/>
+  </g>
+
+  <!-- 校名中文 -->
+  <text x="272" y="118"
+        font-family="'Microsoft YaHei','PingFang SC','Noto Sans SC','Source Han Sans SC','SimHei',sans-serif"
+        font-size="62" font-weight="700" fill="#ffffff" letter-spacing="6">南昌大学</text>
+
+  <!-- 校名英文 -->
+  <text x="276" y="158"
+        font-family="'Helvetica Neue',Arial,'Segoe UI',sans-serif"
+        font-size="21" font-weight="500" fill="#CFE2F7" letter-spacing="6.5">NANCHANG UNIVERSITY</text>
+
+  <!-- 分隔线 -->
+  <rect x="276" y="178" width="700" height="2" fill="#ffffff" opacity="0.28"/>
+
+  <!-- 副标题 -->
+  <text x="276" y="212"
+        font-family="'Microsoft YaHei','PingFang SC','Noto Sans SC',sans-serif"
+        font-size="23" fill="#F3D48A" letter-spacing="3">个人作品集 · Personal Portfolio</text>
+
+  <!-- 右下角学期标记 -->
+  <text x="1136" y="212" text-anchor="end"
+        font-family="'Helvetica Neue',Arial,sans-serif"
+        font-size="17" fill="#9EC3E8" letter-spacing="2">2026 AUTUMN · W01–W16</text>
+</svg>
